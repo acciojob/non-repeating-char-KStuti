@@ -1,6 +1,5 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
-	function firstNonRepeatedChar(str) {
   
 //  * create a frequency map; where we find all the frequency for each character
 const charFreq = {}; // charFreq["Name of Field"] 
@@ -16,6 +15,6 @@ for (let char of str) {
 }
 return null;
 }
-}
+
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
